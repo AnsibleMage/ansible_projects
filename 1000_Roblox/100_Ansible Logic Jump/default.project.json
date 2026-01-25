@@ -1,0 +1,6553 @@
+{
+  "name": "Ansible Jump 001 - Forest Sprint Premium",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.227,
+            0.49,
+            0.082
+          ],
+          "Locked": true,
+          "Material": "Grass",
+          "Position": [
+            0,
+            -10,
+            0
+          ],
+          "Size": [
+            1024,
+            20,
+            1024
+          ],
+          "CanCollide": false
+        }
+      },
+      "StartLine": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            1,
+            1,
+            1
+          ],
+          "Material": "Neon",
+          "Position": [
+            0,
+            10,
+            0
+          ],
+          "Size": [
+            20,
+            1,
+            2
+          ]
+        }
+      },
+      "FinishLine": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            1,
+            1,
+            0
+          ],
+          "Material": "Neon",
+          "Position": [
+            0,
+            20.1,
+            300
+          ],
+          "Size": [
+            30,
+            0.2,
+            5
+          ]
+        }
+      },
+      "SprintTrack": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.3,
+            0.2,
+            0.1
+          ],
+          "Material": "Grass",
+          "Position": [
+            0,
+            0.1,
+            150
+          ],
+          "Size": [
+            15,
+            0.1,
+            300
+          ]
+        }
+      },
+      "LogHurdle_1": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.4,
+            0.3,
+            0.2
+          ],
+          "Material": "Wood",
+          "Position": [
+            0,
+            1,
+            100
+          ],
+          "Size": [
+            10,
+            1.5,
+            2
+          ]
+        }
+      },
+      "LogHurdle_2": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Color": [
+            0.4,
+            0.3,
+            0.2
+          ],
+          "Material": "Wood",
+          "Position": [
+            0,
+            1,
+            200
+          ],
+          "Size": [
+            10,
+            1.5,
+            2
+          ]
+        }
+      },
+      "PremiumTree_0": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -28.742904838184163,
+              3.417575340433001,
+              221.99473989553897
+            ],
+            "Size": [
+              3,
+              6.835150680866002,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -28.742904838184163,
+              8.885695885125804,
+              221.99473989553897
+            ],
+            "Size": [
+              2,
+              6.835150680866002,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -30.387184448102346,
+              14.986323126798062,
+              222.37142863997735
+            ],
+            "Size": [
+              8.10445186516299,
+              8.10445186516299,
+              8.10445186516299
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -29.521986248493953,
+              14.17041519737312,
+              221.56296514138825
+            ],
+            "Size": [
+              7.309414911198202,
+              7.309414911198202,
+              7.309414911198202
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -26.94928860691176,
+              15.535299056277454,
+              223.8010652929216
+            ],
+            "Size": [
+              6.240572464666915,
+              6.240572464666915,
+              6.240572464666915
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -28.27600750338314,
+              13.358007986378013,
+              222.24419045042904
+            ],
+            "Size": [
+              8.163955619402214,
+              8.163955619402214,
+              8.163955619402214
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_1": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              27.243679289481825,
+              2.6281648974813883,
+              299.15412246176874
+            ],
+            "Size": [
+              3,
+              5.2563297949627765,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              27.243679289481825,
+              6.83322873345161,
+              299.15412246176874
+            ],
+            "Size": [
+              2,
+              5.2563297949627765,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              26.938877787881026,
+              11.973478964404078,
+              297.7595219178059
+            ],
+            "Size": [
+              6.2242980170505655,
+              6.2242980170505655,
+              6.2242980170505655
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              27.53277292281383,
+              10.457073298928673,
+              298.10388466075943
+            ],
+            "Size": [
+              6.268257047366098,
+              6.268257047366098,
+              6.268257047366098
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              28.077106060363143,
+              12.16169983075958,
+              298.4042386194294
+            ],
+            "Size": [
+              6.659005509813414,
+              6.659005509813414,
+              6.659005509813414
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              29.19067897250661,
+              10.135261855966538,
+              299.10248049388224
+            ],
+            "Size": [
+              7.9420275563228735,
+              7.9420275563228735,
+              7.9420275563228735
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_2": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -14.81632119022452,
+              2.763993765271426,
+              129.93819762973635
+            ],
+            "Size": [
+              3,
+              5.527987530542852,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -14.81632119022452,
+              7.186383789705707,
+              129.93819762973635
+            ],
+            "Size": [
+              2,
+              5.527987530542852,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -13.467773496015134,
+              11.703098916051509,
+              129.62193392642325
+            ],
+            "Size": [
+              8.2092182751536,
+              8.2092182751536,
+              8.2092182751536
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -13.686244548772551,
+              10.718226841730766,
+              131.82528934310216
+            ],
+            "Size": [
+              7.779047709557657,
+              7.779047709557657,
+              7.779047709557657
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -14.802780288214526,
+              11.953749868210695,
+              129.1200443769703
+            ],
+            "Size": [
+              6.210070832386144,
+              6.210070832386144,
+              6.210070832386144
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -15.631273820297165,
+              10.203625703468756,
+              130.84378207748912
+            ],
+            "Size": [
+              6.0249291557590965,
+              6.0249291557590965,
+              6.0249291557590965
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -15.06944544588609,
+              11.080143879193068,
+              129.31534382138284
+            ],
+            "Size": [
+              8.188090750234322,
+              8.188090750234322,
+              8.188090750234322
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_3": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -20.219223099617786,
+              2.7393465074561245,
+              212.48752700141037
+            ],
+            "Size": [
+              3,
+              5.478693014912249,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -20.219223099617786,
+              7.122300919385924,
+              212.48752700141037
+            ],
+            "Size": [
+              2,
+              5.478693014912249,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -21.299274242579006,
+              12.017082497249213,
+              211.90548740528612
+            ],
+            "Size": [
+              8.609421018209643,
+              8.609421018209643,
+              8.609421018209643
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.194494374632633,
+              11.159394066452304,
+              214.34966761947499
+            ],
+            "Size": [
+              8.263412596762276,
+              8.263412596762276,
+              8.263412596762276
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.522565816753175,
+              10.111859405509405,
+              214.01114971029114
+            ],
+            "Size": [
+              6.43115768249138,
+              6.43115768249138,
+              6.43115768249138
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_4": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -25.220639283742027,
+              3.684120038156067,
+              18.965281907848635
+            ],
+            "Size": [
+              3,
+              7.368240076312134,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -25.220639283742027,
+              9.578712099205774,
+              18.965281907848635
+            ],
+            "Size": [
+              2,
+              7.368240076312134,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -26.188269086224103,
+              16.657267766309523,
+              18.73748645053893
+            ],
+            "Size": [
+              6.056126121583766,
+              6.056126121583766,
+              6.056126121583766
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -24.75610184586788,
+              15.849567246533457,
+              18.636651572157234
+            ],
+            "Size": [
+              7.166815435326347,
+              7.166815435326347,
+              7.166815435326347
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -26.060544223612748,
+              15.32799638894003,
+              18.734759326504232
+            ],
+            "Size": [
+              7.297268093595101,
+              7.297268093595101,
+              7.297268093595101
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -24.038056050614863,
+              15.242170582649361,
+              19.648761782529537
+            ],
+            "Size": [
+              8.671324389841162,
+              8.671324389841162,
+              8.671324389841162
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_5": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.105622381529948,
+              3.487556283526936,
+              109.6418615228955
+            ],
+            "Size": [
+              3,
+              6.975112567053872,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.105622381529948,
+              9.067646337170034,
+              109.6418615228955
+            ],
+            "Size": [
+              2,
+              6.975112567053872,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.505341338570325,
+              15.673976126792551,
+              110.98397443840825
+            ],
+            "Size": [
+              8.032170988036912,
+              8.032170988036912,
+              8.032170988036912
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -16.491482724807643,
+              14.645127779940239,
+              107.75864611900509
+            ],
+            "Size": [
+              8.043836684804733,
+              8.043836684804733,
+              8.043836684804733
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -17.855899194291446,
+              14.25143386391391,
+              108.97932984033733
+            ],
+            "Size": [
+              7.069083306326318,
+              7.069083306326318,
+              7.069083306326318
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -16.694399155206355,
+              14.342734904454653,
+              109.09773121050311
+            ],
+            "Size": [
+              8.154146808578464,
+              8.154146808578464,
+              8.154146808578464
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.50400374071304,
+              15.29250700464615,
+              109.09619526947259
+            ],
+            "Size": [
+              7.842044526325493,
+              7.842044526325493,
+              7.842044526325493
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_6": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.798898047541208,
+              2.9613739576236844,
+              173.09037303319627
+            ],
+            "Size": [
+              3,
+              5.922747915247369,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.798898047541208,
+              7.69957228982158,
+              173.09037303319627
+            ],
+            "Size": [
+              2,
+              5.922747915247369,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.730594797652348,
+              11.070176133097531,
+              172.86271366288386
+            ],
+            "Size": [
+              8.149010785732852,
+              8.149010785732852,
+              8.149010785732852
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.110751321541755,
+              12.436390352727562,
+              174.0610582585934
+            ],
+            "Size": [
+              6.658340474069684,
+              6.658340474069684,
+              6.658340474069684
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.14193880806754,
+              11.929522322870916,
+              172.73915944299966
+            ],
+            "Size": [
+              7.917141584660072,
+              7.917141584660072,
+              7.917141584660072
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.825269427110058,
+              12.103226403064,
+              171.3265314762999
+            ],
+            "Size": [
+              8.496613471918366,
+              8.496613471918366,
+              8.496613471918366
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_7": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              19.72235982407686,
+              3.2872070188590934,
+              147.90705100004243
+            ],
+            "Size": [
+              3,
+              6.574414037718187,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              19.72235982407686,
+              8.546738249033643,
+              147.90705100004243
+            ],
+            "Size": [
+              2,
+              6.574414037718187,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              19.498782597789493,
+              14.323059152796882,
+              146.0381617088047
+            ],
+            "Size": [
+              8.211727105128896,
+              8.211727105128896,
+              8.211727105128896
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              19.098671860489716,
+              15.123289627569903,
+              147.150541839154
+            ],
+            "Size": [
+              6.955279610931951,
+              6.955279610931951,
+              6.955279610931951
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              17.996886433180748,
+              13.890751371618501,
+              149.8601301197681
+            ],
+            "Size": [
+              6.552257865343043,
+              6.552257865343043,
+              6.552257865343043
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              21.099253769351733,
+              13.311002915401263,
+              147.8905611244784
+            ],
+            "Size": [
+              8.080457760592251,
+              8.080457760592251,
+              8.080457760592251
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_8": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              15.336195493685324,
+              2.51372303889911,
+              22.081327527587113
+            ],
+            "Size": [
+              3,
+              5.02744607779822,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              15.336195493685324,
+              6.535679901137686,
+              22.081327527587113
+            ],
+            "Size": [
+              2,
+              5.02744607779822,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              17.07266872727701,
+              11.862034431966965,
+              21.059556632321154
+            ],
+            "Size": [
+              7.549641083585838,
+              7.549641083585838,
+              7.549641083585838
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              16.02905838202703,
+              9.284882560948134,
+              21.06612307879219
+            ],
+            "Size": [
+              7.838812169321761,
+              7.838812169321761,
+              7.838812169321761
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              15.643473222454487,
+              9.380614934294726,
+              20.087717405590055
+            ],
+            "Size": [
+              7.477679867457132,
+              7.477679867457132,
+              7.477679867457132
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              17.06139715845576,
+              10.716208836408889,
+              22.533147895568835
+            ],
+            "Size": [
+              8.615719922301441,
+              8.615719922301441,
+              8.615719922301441
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_9": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              28.13217692439019,
+              3.5491099455346227,
+              18.670260289937843
+            ],
+            "Size": [
+              3,
+              7.098219891069245,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              28.13217692439019,
+              9.22768585839002,
+              18.670260289937843
+            ],
+            "Size": [
+              2,
+              7.098219891069245,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              29.468030535254208,
+              14.441900767823032,
+              18.371794165134684
+            ],
+            "Size": [
+              6.619241458560144,
+              6.619241458560144,
+              6.619241458560144
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              27.007945701639844,
+              14.653766296361441,
+              20.2532144322219
+            ],
+            "Size": [
+              6.964444720461661,
+              6.964444720461661,
+              6.964444720461661
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              26.47936756420761,
+              15.118857301079995,
+              18.64927917145627
+            ],
+            "Size": [
+              7.716972510590041,
+              7.716972510590041,
+              7.716972510590041
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              29.45156060103214,
+              15.588400882533602,
+              18.306664795637694
+            ],
+            "Size": [
+              8.462838115629923,
+              8.462838115629923,
+              8.462838115629923
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_10": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -24.60473597781954,
+              2.8021633554145318,
+              -1.728450948983351
+            ],
+            "Size": [
+              3,
+              5.6043267108290635,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -24.60473597781954,
+              7.285624724077783,
+              -1.728450948983351
+            ],
+            "Size": [
+              2,
+              5.6043267108290635,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -25.197978200416927,
+              12.19280204752393,
+              -3.2177435109790364
+            ],
+            "Size": [
+              6.157416047589754,
+              6.157416047589754,
+              6.157416047589754
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -25.95258212578744,
+              13.099904804117138,
+              -0.11005872783888959
+            ],
+            "Size": [
+              6.552237401036406,
+              6.552237401036406,
+              6.552237401036406
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -24.922994396360664,
+              11.930446511890683,
+              -1.7125240037896288
+            ],
+            "Size": [
+              7.310466367474221,
+              7.310466367474221,
+              7.310466367474221
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -24.858538492130663,
+              12.87813355668874,
+              -3.162006967951648
+            ],
+            "Size": [
+              7.837478359560862,
+              7.837478359560862,
+              7.837478359560862
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -25.54435791202237,
+              11.730116658100988,
+              -2.1082187322448642
+            ],
+            "Size": [
+              7.5525947951938335,
+              7.5525947951938335,
+              7.5525947951938335
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_11": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -21.540936139196866,
+              3.597501394325984,
+              204.16455553515658
+            ],
+            "Size": [
+              3,
+              7.195002788651968,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -21.540936139196866,
+              9.353503625247559,
+              204.16455553515658
+            ],
+            "Size": [
+              2,
+              7.195002788651968,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -21.040527348716648,
+              15.758460992116634,
+              204.08544769523215
+            ],
+            "Size": [
+              6.845807999966123,
+              6.845807999966123,
+              6.845807999966123
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.531263939769083,
+              14.697063435259626,
+              206.11014044893153
+            ],
+            "Size": [
+              8.62125443404906,
+              8.62125443404906,
+              8.62125443404906
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -22.81429398587246,
+              13.600329819469879,
+              202.4308103366018
+            ],
+            "Size": [
+              8.389687181698477,
+              8.389687181698477,
+              8.389687181698477
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -22.449385867973294,
+              15.054465499176091,
+              205.3938749806047
+            ],
+            "Size": [
+              8.02908123331826,
+              8.02908123331826,
+              8.02908123331826
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -21.446612191349754,
+              15.020118887516128,
+              203.8478386760302
+            ],
+            "Size": [
+              6.587325033574148,
+              6.587325033574148,
+              6.587325033574148
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_12": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              25.771985201216662,
+              3.4128133904448523,
+              -2.9792606047666226
+            ],
+            "Size": [
+              3,
+              6.825626780889705,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              25.771985201216662,
+              8.873314815156617,
+              -2.9792606047666226
+            ],
+            "Size": [
+              2,
+              6.825626780889705,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              26.539781914974427,
+              15.404556027378103,
+              -3.5262332824162113
+            ],
+            "Size": [
+              7.346291298696547,
+              7.346291298696547,
+              7.346291298696547
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              26.61962833420495,
+              15.294646588862838,
+              -2.0959632357383975
+            ],
+            "Size": [
+              8.378131131440409,
+              8.378131131440409,
+              8.378131131440409
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              27.191502179212133,
+              12.795453416718683,
+              -2.3328785998303503
+            ],
+            "Size": [
+              6.702567090503557,
+              6.702567090503557,
+              6.702567090503557
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_13": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              28.804906908194912,
+              2.9332092761645088,
+              65.72293946267585
+            ],
+            "Size": [
+              3,
+              5.8664185523290175,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              28.804906908194912,
+              7.626344118027723,
+              65.72293946267585
+            ],
+            "Size": [
+              2,
+              5.8664185523290175,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              26.991779350067183,
+              13.529006693413665,
+              64.04994619418585
+            ],
+            "Size": [
+              8.997355625974738,
+              8.997355625974738,
+              8.997355625974738
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              26.857561346563248,
+              12.746133052078397,
+              66.14938319736275
+            ],
+            "Size": [
+              7.623663527461201,
+              7.623663527461201,
+              7.623663527461201
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              29.82938120400018,
+              11.35578345571069,
+              67.38738813485641
+            ],
+            "Size": [
+              7.136315810107472,
+              7.136315810107472,
+              7.136315810107472
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              29.55648587725407,
+              12.193463031851278,
+              66.72019014549153
+            ],
+            "Size": [
+              7.014883654854988,
+              7.014883654854988,
+              7.014883654854988
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              27.908873473945174,
+              11.59330407378211,
+              65.17921379075925
+            ],
+            "Size": [
+              6.293324487290609,
+              6.293324487290609,
+              6.293324487290609
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_14": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -13.493517762911276,
+              2.6938717328500674,
+              144.06927372363305
+            ],
+            "Size": [
+              3,
+              5.387743465700135,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -13.493517762911276,
+              7.004066505410176,
+              144.06927372363305
+            ],
+            "Size": [
+              2,
+              5.387743465700135,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -12.585842180456687,
+              10.436006828748553,
+              144.95965239841902
+            ],
+            "Size": [
+              8.077027267234303,
+              8.077027267234303,
+              8.077027267234303
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -13.431793776402086,
+              11.169465643457803,
+              143.82346812046816
+            ],
+            "Size": [
+              7.180646158901057,
+              7.180646158901057,
+              7.180646158901057
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -13.207576352686967,
+              9.858294957297892,
+              144.9968648769179
+            ],
+            "Size": [
+              8.845717463860616,
+              8.845717463860616,
+              8.845717463860616
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_15": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -22.763254961195244,
+              3.6793881502150008,
+              203.75275407018066
+            ],
+            "Size": [
+              3,
+              7.3587763004300015,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -22.763254961195244,
+              9.566409190559002,
+              203.75275407018066
+            ],
+            "Size": [
+              2,
+              7.3587763004300015,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -23.704395966787615,
+              15.267223846586461,
+              203.74942096685527
+            ],
+            "Size": [
+              6.6146206611744365,
+              6.6146206611744365,
+              6.6146206611744365
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -22.084162227623338,
+              15.762231507974205,
+              203.2353568824836
+            ],
+            "Size": [
+              7.596316016869482,
+              7.596316016869482,
+              7.596316016869482
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.13,
+              0.35,
+              0.13
+            ],
+            "Material": "Grass",
+            "Position": [
+              -24.144577790547068,
+              13.850818920331417,
+              203.9011622760103
+            ],
+            "Size": [
+              8.323006415717666,
+              8.323006415717666,
+              8.323006415717666
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_16": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.80435578128923,
+              3.415431167615852,
+              96.34651996477243
+            ],
+            "Size": [
+              3,
+              6.830862335231704,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.80435578128923,
+              8.880121035801215,
+              96.34651996477243
+            ],
+            "Size": [
+              2,
+              6.830862335231704,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -16.88038324430586,
+              15.611209486146489,
+              96.21370932633651
+            ],
+            "Size": [
+              8.307422076268743,
+              8.307422076268743,
+              8.307422076268743
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.962199771929036,
+              14.345340003641176,
+              96.42112349545145
+            ],
+            "Size": [
+              7.819748102057968,
+              7.819748102057968,
+              7.819748102057968
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.167410965776014,
+              13.055796541454248,
+              95.66539745741053
+            ],
+            "Size": [
+              7.926436010729937,
+              7.926436010729937,
+              7.926436010729937
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -17.560902483673306,
+              13.722669528487462,
+              94.955267456113
+            ],
+            "Size": [
+              8.596586972898162,
+              8.596586972898162,
+              8.596586972898162
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -17.294501469167155,
+              12.899997414712212,
+              95.48345010902378
+            ],
+            "Size": [
+              6.098813825575494,
+              6.098813825575494,
+              6.098813825575494
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_17": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.147150647537348,
+              2.8888462908351977,
+              128.92845541986247
+            ],
+            "Size": [
+              3,
+              5.7776925816703955,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -18.147150647537348,
+              7.511000356171515,
+              128.92845541986247
+            ],
+            "Size": [
+              2,
+              5.7776925816703955,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.120386839158105,
+              11.14761592557458,
+              128.3733449791693
+            ],
+            "Size": [
+              8.301285905299048,
+              8.301285905299048,
+              8.301285905299048
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -16.524187957309447,
+              11.415744380875427,
+              128.148898012913
+            ],
+            "Size": [
+              7.81333496999687,
+              7.81333496999687,
+              7.81333496999687
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.23216533278164,
+              12.935437505797907,
+              130.5909793019089
+            ],
+            "Size": [
+              6.393289091348583,
+              6.393289091348583,
+              6.393289091348583
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -19.152122798917656,
+              11.61425614564325,
+              130.38324545688815
+            ],
+            "Size": [
+              6.7791562326759225,
+              6.7791562326759225,
+              6.7791562326759225
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_18": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -12.13232634011916,
+              3.622061355161111,
+              154.3999481421614
+            ],
+            "Size": [
+              3,
+              7.244122710322222,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -12.13232634011916,
+              9.41735952341889,
+              154.3999481421614
+            ],
+            "Size": [
+              2,
+              7.244122710322222,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -13.780794807766886,
+              15.571559478262687,
+              153.92336825189057
+            ],
+            "Size": [
+              6.026471368412053,
+              6.026471368412053,
+              6.026471368412053
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -12.82271964711828,
+              15.910044484418323,
+              153.1008547234276
+            ],
+            "Size": [
+              8.752007877528474,
+              8.752007877528474,
+              8.752007877528474
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -12.756638873585016,
+              13.77977615193043,
+              153.360157309223
+            ],
+            "Size": [
+              6.0907555497955785,
+              6.0907555497955785,
+              6.0907555497955785
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -13.51284045431895,
+              14.464725500108376,
+              152.83729281238885
+            ],
+            "Size": [
+              8.423370880769713,
+              8.423370880769713,
+              8.423370880769713
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -10.923375950504298,
+              16.187854164623076,
+              152.7610570789676
+            ],
+            "Size": [
+              6.65990792339684,
+              6.65990792339684,
+              6.65990792339684
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_19": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -27.51965786333774,
+              2.6612773152020877,
+              233.1042406603605
+            ],
+            "Size": [
+              3,
+              5.322554630404175,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -27.51965786333774,
+              6.919321019525428,
+              233.1042406603605
+            ],
+            "Size": [
+              2,
+              5.322554630404175,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -26.30389543225959,
+              10.422390788554328,
+              234.8524792205623
+            ],
+            "Size": [
+              7.786910747715357,
+              7.786910747715357,
+              7.786910747715357
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -29.286664842385587,
+              11.204222679217114,
+              233.8823727120857
+            ],
+            "Size": [
+              7.50711140603576,
+              7.50711140603576,
+              7.50711140603576
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -28.054717818506465,
+              10.626438661869233,
+              232.718568724052
+            ],
+            "Size": [
+              8.097067375345587,
+              8.097067375345587,
+              8.097067375345587
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -26.289764538007596,
+              10.82206941637699,
+              234.80311882731797
+            ],
+            "Size": [
+              8.034019175330863,
+              8.034019175330863,
+              8.034019175330863
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_20": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              22.033504715689013,
+              3.669607156348664,
+              15.79850593967528
+            ],
+            "Size": [
+              3,
+              7.339214312697328,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              22.033504715689013,
+              9.540978606506526,
+              15.79850593967528
+            ],
+            "Size": [
+              2,
+              7.339214312697328,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              22.56372034597583,
+              16.267133841224684,
+              17.63895164344602
+            ],
+            "Size": [
+              7.833602017833662,
+              7.833602017833662,
+              7.833602017833662
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              23.952226069968816,
+              16.047692849224884,
+              16.51197224551329
+            ],
+            "Size": [
+              6.055298305256837,
+              6.055298305256837,
+              6.055298305256837
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              20.91882244648543,
+              15.96782756918088,
+              17.7315407029673
+            ],
+            "Size": [
+              8.259797750119361,
+              8.259797750119361,
+              8.259797750119361
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              23.499513286303973,
+              14.850751393459234,
+              17.581825635703385
+            ],
+            "Size": [
+              8.866856909853974,
+              8.866856909853974,
+              8.866856909853974
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_21": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -21.58569726210395,
+              3.713400913342033,
+              194.17990704060946
+            ],
+            "Size": [
+              3,
+              7.426801826684066,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -21.58569726210395,
+              9.654842374689286,
+              194.17990704060946
+            ],
+            "Size": [
+              2,
+              7.426801826684066,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -22.259576968013878,
+              15.61832943725025,
+              195.56638721477108
+            ],
+            "Size": [
+              6.284465564535487,
+              6.284465564535487,
+              6.284465564535487
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.85066192359681,
+              14.113337496733923,
+              194.75911243717184
+            ],
+            "Size": [
+              8.019830092251077,
+              8.019830092251077,
+              8.019830092251077
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -22.844195008393406,
+              16.312812839733578,
+              192.21613348656183
+            ],
+            "Size": [
+              8.98752522155338,
+              8.98752522155338,
+              8.98752522155338
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -21.465902635206405,
+              16.422880624777832,
+              195.58347030791404
+            ],
+            "Size": [
+              6.508366619398339,
+              6.508366619398339,
+              6.508366619398339
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.756274079449405,
+              16.32947417097484,
+              195.76298916125612
+            ],
+            "Size": [
+              8.052595121965409,
+              8.052595121965409,
+              8.052595121965409
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_22": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -21.91466101256654,
+              3.2848588853202783,
+              122.77743654966974
+            ],
+            "Size": [
+              3,
+              6.5697177706405565,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -21.91466101256654,
+              8.540633101832723,
+              122.77743654966974
+            ],
+            "Size": [
+              2,
+              6.5697177706405565,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.603242040031738,
+              13.808029105628728,
+              124.0723545879187
+            ],
+            "Size": [
+              6.989996669771815,
+              6.989996669771815,
+              6.989996669771815
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.574677529933602,
+              13.072545408598387,
+              122.9685197566685
+            ],
+            "Size": [
+              6.36522978664726,
+              6.36522978664726,
+              6.36522978664726
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              -21.155733012330355,
+              15.106372361885867,
+              123.74791568493265
+            ],
+            "Size": [
+              7.107097356041031,
+              7.107097356041031,
+              7.107097356041031
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_23": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -29.22665620784766,
+              3.1846369654358466,
+              217.45760136776514
+            ],
+            "Size": [
+              3,
+              6.369273930871693,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -29.22665620784766,
+              8.280056110133202,
+              217.45760136776514
+            ],
+            "Size": [
+              2,
+              6.369273930871693,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -31.066502704689803,
+              13.642440795784506,
+              216.78150174921137
+            ],
+            "Size": [
+              6.706199106381954,
+              6.706199106381954,
+              6.706199106381954
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -28.878543379891255,
+              14.684724541061408,
+              218.85427021586875
+            ],
+            "Size": [
+              6.963644314193777,
+              6.963644314193777,
+              6.963644314193777
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -28.968574740733207,
+              11.897073624757665,
+              217.6732918430937
+            ],
+            "Size": [
+              7.250891961114952,
+              7.250891961114952,
+              7.250891961114952
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -30.21145159343775,
+              13.628395931182517,
+              217.3416248206073
+            ],
+            "Size": [
+              6.933411151857705,
+              6.933411151857705,
+              6.933411151857705
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -30.49810149501396,
+              12.718708287187905,
+              216.77656622609854
+            ],
+            "Size": [
+              6.248734718767825,
+              6.248734718767825,
+              6.248734718767825
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_24": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -17.63226391124205,
+              3.5535773135942996,
+              296.2581946255914
+            ],
+            "Size": [
+              3,
+              7.107154627188599,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -17.63226391124205,
+              9.239301015345179,
+              296.2581946255914
+            ],
+            "Size": [
+              2,
+              7.107154627188599,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.615785141844682,
+              14.422008092245065,
+              295.0120251071535
+            ],
+            "Size": [
+              8.476732980487004,
+              8.476732980487004,
+              8.476732980487004
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -17.09952504066848,
+              14.617520239307346,
+              295.4628236727588
+            ],
+            "Size": [
+              7.348116753318408,
+              7.348116753318408,
+              7.348116753318408
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -15.668674574308106,
+              13.233500789673073,
+              296.3883100666732
+            ],
+            "Size": [
+              6.955310006566841,
+              6.955310006566841,
+              6.955310006566841
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_25": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -16.388935199209982,
+              2.932410044542488,
+              58.96960766992592
+            ],
+            "Size": [
+              3,
+              5.864820089084976,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -16.388935199209982,
+              7.624266115810468,
+              58.96960766992592
+            ],
+            "Size": [
+              2,
+              5.864820089084976,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -16.48444092508308,
+              13.110310662999714,
+              57.680038662616596
+            ],
+            "Size": [
+              8.520678094994398,
+              8.520678094994398,
+              8.520678094994398
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -14.795722532116955,
+              12.02949571223011,
+              60.72221034244802
+            ],
+            "Size": [
+              6.683342261887082,
+              6.683342261887082,
+              6.683342261887082
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -14.670202353632718,
+              11.635318583525358,
+              59.429260814979116
+            ],
+            "Size": [
+              7.385803454621119,
+              7.385803454621119,
+              7.385803454621119
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -17.181779385646237,
+              11.03882896298657,
+              57.564975740618266
+            ],
+            "Size": [
+              6.14612608008259,
+              6.14612608008259,
+              6.14612608008259
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_26": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -26.516576213493526,
+              3.1559976096527196,
+              250.1355485695513
+            ],
+            "Size": [
+              3,
+              6.311995219305439,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -26.516576213493526,
+              8.20559378509707,
+              250.1355485695513
+            ],
+            "Size": [
+              2,
+              6.311995219305439,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -26.860546678380032,
+              12.29930375411727,
+              249.36640462903796
+            ],
+            "Size": [
+              7.21574442169244,
+              7.21574442169244,
+              7.21574442169244
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -25.749084156604034,
+              13.387442466933717,
+              248.9262498740092
+            ],
+            "Size": [
+              7.45723335976937,
+              7.45723335976937,
+              7.45723335976937
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -24.794931944128187,
+              12.01479487512752,
+              248.65254181579672
+            ],
+            "Size": [
+              7.284983051250784,
+              7.284983051250784,
+              7.284983051250784
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_27": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              15.593369910406457,
+              2.554328469939699,
+              207.63516674832135
+            ],
+            "Size": [
+              3,
+              5.108656939879398,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              15.593369910406457,
+              6.641254021843218,
+              207.63516674832135
+            ],
+            "Size": [
+              2,
+              5.108656939879398,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              14.816549782689972,
+              11.950991111779002,
+              209.2080346814915
+            ],
+            "Size": [
+              8.132520750761648,
+              8.132520750761648,
+              8.132520750761648
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              15.437929425703713,
+              11.417778544398313,
+              209.5421392889557
+            ],
+            "Size": [
+              8.159074759047833,
+              8.159074759047833,
+              8.159074759047833
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.1,
+              0.4,
+              0.1
+            ],
+            "Material": "Grass",
+            "Position": [
+              16.63079815258479,
+              11.93742886276664,
+              206.34515244285316
+            ],
+            "Size": [
+              8.074591605983066,
+              8.074591605983066,
+              8.074591605983066
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_28": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -19.69284833438486,
+              3.446270209346547,
+              168.49762646064272
+            ],
+            "Size": [
+              3,
+              6.892540418693094,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              -19.69284833438486,
+              8.960302544301022,
+              168.49762646064272
+            ],
+            "Size": [
+              2,
+              6.892540418693094,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.82620140344183,
+              12.81863256642311,
+              169.6095089236166
+            ],
+            "Size": [
+              8.630963453793436,
+              8.630963453793436,
+              8.630963453793436
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.583054119029924,
+              15.170418042874116,
+              166.6734234586484
+            ],
+            "Size": [
+              6.139242079897997,
+              6.139242079897997,
+              6.139242079897997
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -18.045312274969742,
+              14.438789271586971,
+              170.13962178590643
+            ],
+            "Size": [
+              6.177016350120765,
+              6.177016350120765,
+              6.177016350120765
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_3": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -21.57228354564312,
+              14.257373388921689,
+              167.64513439348534
+            ],
+            "Size": [
+              6.031654320998271,
+              6.031654320998271,
+              6.031654320998271
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_4": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              -20.6442078934627,
+              13.524327868251795,
+              167.06959448720787
+            ],
+            "Size": [
+              8.467572409899793,
+              8.467572409899793,
+              8.467572409899793
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PremiumTree_29": {
+        "$className": "Model",
+        "Trunk_Base": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              17.684847150181483,
+              3.5783334403423437,
+              145.64918800967286
+            ],
+            "Size": [
+              3,
+              7.156666880684687,
+              3
+            ]
+          }
+        },
+        "Trunk_Top": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Color": [
+              0.36,
+              0.25,
+              0.14
+            ],
+            "Material": "Wood",
+            "Position": [
+              17.684847150181483,
+              9.303666944890093,
+              145.64918800967286
+            ],
+            "Size": [
+              2,
+              7.156666880684687,
+              2
+            ]
+          }
+        },
+        "Leaves_0": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              18.39331247803748,
+              14.3265024643405,
+              147.40415692987426
+            ],
+            "Size": [
+              8.937017823714942,
+              8.937017823714942,
+              8.937017823714942
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_1": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              16.013694681408065,
+              16.03652366947507,
+              145.12294995490672
+            ],
+            "Size": [
+              8.997323087252912,
+              8.997323087252912,
+              8.997323087252912
+            ],
+            "TopSurface": "Smooth"
+          }
+        },
+        "Leaves_2": {
+          "$className": "Part",
+          "$properties": {
+            "Anchored": true,
+            "Shape": "Ball",
+            "Color": [
+              0.2,
+              0.5,
+              0.2
+            ],
+            "Material": "Grass",
+            "Position": [
+              18.876799926309953,
+              14.442828626441482,
+              146.79096766092462
+            ],
+            "Size": [
+              7.877305254174336,
+              7.877305254174336,
+              7.877305254174336
+            ],
+            "TopSurface": "Smooth"
+          }
+        }
+      },
+      "PathMarker_L_0": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            0
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_0": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            0
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_1": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            10
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_1": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            10
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_2": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            20
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_2": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            20
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_3": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            30
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_3": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            30
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_4": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            40
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_4": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            40
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_5": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            50
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_5": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            50
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_6": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            60
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_6": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            60
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_7": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            70
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_7": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            70
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_8": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            80
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_8": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            80
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_9": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            90
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_9": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            90
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_10": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            100
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_10": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            100
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_11": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            110
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_11": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            110
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_12": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            120
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_12": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            120
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_13": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            130
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_13": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            130
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_14": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            140
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_14": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            140
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_15": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            150
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_15": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            150
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_16": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            160
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_16": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            160
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_17": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            170
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_17": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            170
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_18": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            180
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_18": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            180
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_19": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            190
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_19": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            190
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_20": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            200
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_20": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            200
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_21": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            210
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_21": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            210
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_22": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            220
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_22": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            220
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_23": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            230
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_23": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            230
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_24": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            240
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_24": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            240
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_25": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            250
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_25": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            250
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_26": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            260
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_26": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            260
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_27": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            270
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_27": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            270
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_28": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            280
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_28": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            280
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_L_29": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            -8,
+            0.25,
+            290
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "PathMarker_R_29": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            0.314,
+            0.235,
+            0.157
+          ],
+          "Material": "Slate",
+          "Position": [
+            8,
+            0.25,
+            290
+          ],
+          "Size": [
+            2,
+            0.5,
+            10
+          ]
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Position": [
+            0,
+            10,
+            -15
+          ],
+          "Size": [
+            10,
+            1,
+            10
+          ],
+          "Material": "Grass",
+          "CanCollide": true,
+          "Transparency": 0.5,
+          "Color": [
+            0.6,
+            1,
+            0.6
+          ]
+        }
+      },
+      "JumpPlatform_0": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            0.007297103426348706,
+            10.0,
+            0
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_1": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            2.4976750390972873,
+            10.416666666666666,
+            12
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_2": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            3.300735259192285,
+            10.833333333333334,
+            24
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_3": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            1.7194124460107973,
+            11.25,
+            36
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_4": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            3.180351532875143,
+            11.666666666666666,
+            48
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_5": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            1.0889445192289395,
+            12.083333333333334,
+            60
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_6": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            3.5467138148478794,
+            12.5,
+            72
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_7": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            0.8764280541634095,
+            12.916666666666668,
+            84
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_8": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            2.88773381130955,
+            13.333333333333334,
+            96
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_9": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -1.0692336173931674,
+            13.75,
+            108
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_10": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            2.3653274522875387,
+            14.166666666666668,
+            120
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_11": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            1.861753978163299,
+            14.583333333333334,
+            132
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_12": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -2.179321435140473,
+            15.0,
+            144
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_13": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -0.8849871631457562,
+            15.416666666666668,
+            156
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_14": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            2.6125169977709,
+            15.833333333333334,
+            168
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_15": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            3.0595764849512577,
+            16.25,
+            180
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_16": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            1.5492727629990064,
+            16.666666666666668,
+            192
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_17": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -3.188335439668589,
+            17.083333333333336,
+            204
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_18": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -3.8225270726517886,
+            17.5,
+            216
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_19": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -2.953854573178214,
+            17.916666666666668,
+            228
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_20": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            0.6055931658906344,
+            18.333333333333336,
+            240
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_21": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            1.6077118944594098,
+            18.75,
+            252
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_22": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            2.2095947274287937,
+            19.166666666666668,
+            264
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_23": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -1.5724170358728706,
+            19.583333333333336,
+            276
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "JumpPlatform_24": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            -3.803952072527883,
+            20.0,
+            288
+          ],
+          "Size": [
+            6,
+            1,
+            6
+          ]
+        }
+      },
+      "KillBrick": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": false,
+          "Color": [
+            1,
+            0,
+            0
+          ],
+          "Material": "ForceField",
+          "Position": [
+            0,
+            -5,
+            150
+          ],
+          "Size": [
+            2000,
+            1,
+            2000
+          ],
+          "Transparency": 0.8
+        }
+      },
+      "FinishPlatform": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "CanCollide": true,
+          "Color": [
+            0.471,
+            0.471,
+            0.471
+          ],
+          "Material": "Concrete",
+          "Position": [
+            0,
+            19.5,
+            305
+          ],
+          "Size": [
+            30,
+            1,
+            15
+          ]
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "Ambient": [
+          0.51,
+          0.588,
+          0.51
+        ],
+        "Brightness": 2,
+        "GlobalShadows": true,
+        "Outlines": false,
+        "Technology": "Future"
+      },
+      "Atmosphere": {
+        "$className": "Atmosphere",
+        "$properties": {
+          "Density": 0.3,
+          "Haze": 2.0,
+          "Color": [
+            0.75,
+            0.8,
+            0.75
+          ],
+          "Decay": [
+            0.4,
+            0.45,
+            0.4
+          ]
+        }
+      },
+      "Bloom": {
+        "$className": "BloomEffect",
+        "$properties": {
+          "Intensity": 1.0,
+          "Size": 24,
+          "Threshold": 2
+        }
+      },
+      "SunRays": {
+        "$className": "SunRaysEffect",
+        "$properties": {
+          "Intensity": 0.15,
+          "Spread": 0.5
+        }
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
