@@ -34,6 +34,48 @@
 
 ---
 
+### 🔄 200_Roblox_Fly_paper_plane - **개발 중** 🟡
+**상태**: 비행기 탑승 버그 디버깅 중 (2026-01-26)
+
+**게임 정보**:
+- **공식명**: Fly Paper Plane
+- **개발자**: @AnsibleMage
+- **장르**: 종이비행기 비행 시뮬레이션
+- **컨셉**: 1인칭 시점 비행 컨트롤
+
+**핵심 기능** (구현 진행 중):
+- ✈️ 종이비행기 생성 및 탑승
+- 🎮 WASD 비행 컨트롤
+- 📷 1인칭/3인칭 카메라 전환
+- ⚡ BodyVelocity/BodyGyro 물리 엔진
+
+**현재 이슈**:
+- 클라이언트-서버 동기화 문제
+- VehicleSeat 탑승 로직 버그
+
+**기술 스택**: Rojo 7.7.0-rc.1, Lua/Luau
+
+**주요 문서**:
+- [README](./200_Roblox_Fly_paper_plane/README.md)
+- [PRD](./200_Roblox_Fly_paper_plane/doc/100_Product_PRD_Roblox_Fly_Paper_Plane.md)
+- [디버깅 로그](./200_Roblox_Fly_paper_plane/doc/150_Debugging_Log.md)
+
+---
+
+## 📖 개발방법론 문서 (`/doc/Roblox_Dev Methodology`)
+
+Roblox 개발을 위한 자체 개발방법론:
+- [VCR 개발방법론 v1.1](./doc/Roblox_Dev%20Methodology/203_VCR_개발방법론_v1.1.md): Verify-Code-Refactor 사이클
+- [CJ AI 개발방법론 v1.0](./doc/Roblox_Dev%20Methodology/202_CJ_AI_개발방법론_Roblox_v1.0.md): AI 협업 개발 표준
+- [조사분석 보고서](./doc/Roblox_Dev%20Methodology/200_Roblox_개발방법론_조사분석_보고서.md): 방법론 연구 결과
+
+**템플릿**:
+- [PRD 템플릿](./doc/Roblox_Dev%20Methodology/204_Product_PRD_템플릿_Roblox.md)
+- [Block 템플릿](./doc/Roblox_Dev%20Methodology/205_Block_템플릿_Roblox.md)
+- [디버깅 로그 템플릿](./doc/Roblox_Dev%20Methodology/206_Debugging_Log_템플릿_Roblox.md)
+
+---
+
 ## 🏗 Core-Local Architecture
 
 본 저장소는 **중앙 인프라(Core)**와 **개별 프로젝트(Local)**의 명확한 분리를 지향합니다.
@@ -88,5 +130,5 @@ cd "100_Ansible Logic Jump"
 ---
 
 **Orchestrated by Antigravity System V3.0**  
-**마지막 업데이트**: 2026-01-25  
-**프로젝트 상태**: ✅ 1개 완료, 🔄 0개 진행 중
+**마지막 업데이트**: 2026-01-26  
+**프로젝트 상태**: ✅ 1개 완료, 🔄 1개 진행 중

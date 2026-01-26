@@ -34,6 +34,48 @@
 
 ---
 
+### 🔄 200_Roblox_Fly_paper_plane - **In Development** 🟡
+**Status**: Debugging boarding bug (2026-01-26)
+
+**Game Information**:
+- **Official Name**: Fly Paper Plane
+- **Developer**: @AnsibleMage
+- **Genre**: Paper Airplane Flight Simulation
+- **Concept**: First-person flight control
+
+**Core Features** (In Progress):
+- ✈️ Paper airplane creation and boarding
+- 🎮 WASD flight control
+- 📷 First-person/third-person camera toggle
+- ⚡ BodyVelocity/BodyGyro physics engine
+
+**Current Issues**:
+- Client-server synchronization problem
+- VehicleSeat boarding logic bug
+
+**Tech Stack**: Rojo 7.7.0-rc.1, Lua/Luau
+
+**Key Documents**:
+- [README](./200_Roblox_Fly_paper_plane/README.md)
+- [PRD](./200_Roblox_Fly_paper_plane/doc/100_Product_PRD_Roblox_Fly_Paper_Plane.md)
+- [Debugging Log](./200_Roblox_Fly_paper_plane/doc/150_Debugging_Log.md)
+
+---
+
+## 📖 Development Methodology (`/doc/Roblox_Dev Methodology`)
+
+Custom development methodologies for Roblox:
+- [VCR Methodology v1.1](./doc/Roblox_Dev%20Methodology/203_VCR_개발방법론_v1.1.md): Verify-Code-Refactor cycle
+- [CJ AI Methodology v1.0](./doc/Roblox_Dev%20Methodology/202_CJ_AI_개발방법론_Roblox_v1.0.md): AI-collaborative development standard
+- [Research Report](./doc/Roblox_Dev%20Methodology/200_Roblox_개발방법론_조사분석_보고서.md): Methodology analysis
+
+**Templates**:
+- [PRD Template](./doc/Roblox_Dev%20Methodology/204_Product_PRD_템플릿_Roblox.md)
+- [Block Template](./doc/Roblox_Dev%20Methodology/205_Block_템플릿_Roblox.md)
+- [Debugging Log Template](./doc/Roblox_Dev%20Methodology/206_Debugging_Log_템플릿_Roblox.md)
+
+---
+
 ## 🏗 Core-Local Architecture
 
 This repository maintains a clear separation between **central infrastructure (Core)** and **individual projects (Local)**.
@@ -88,5 +130,5 @@ cd "100_Ansible Logic Jump"
 ---
 
 **Orchestrated by Antigravity System V3.0**  
-**Last Updated**: 2026-01-25  
-**Project Status**: ✅ 1 Completed, 🔄 0 In Progress
+**Last Updated**: 2026-01-26  
+**Project Status**: ✅ 1 Completed, 🔄 1 In Progress
