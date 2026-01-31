@@ -1,0 +1,49 @@
+<!-- Canvas Layer (Background) -->
+<!-- Connected to Stimulus controller 'mist' -->
+<div data-controller="mist" class="fixed inset-0 w-full h-full z-0">
+  <canvas 
+    data-mist-target="canvas" 
+    class="block w-full h-full cursor-none"
+  ></canvas>
+</div>
+
+<!-- Overlay UI Layer (Foreground) -->
+<div class="relative z-10 w-full h-full pointer-events-none flex flex-col justify-between p-8 md:p-12">
+  
+  <!-- Header / Top Left -->
+  <header class="pointer-events-auto transition-opacity duration-1000 ease-in opacity-0 animate-float" data-mist-target="ui">
+    <h1 class="font-serif text-2xl md:text-4xl tracking-widest text-white/90">
+      ANSIBLE<br/>PARTICLE<br/>MIST
+    </h1>
+    <p class="mt-2 text-xs md:text-sm text-white/50 font-mono">
+      The Mist Manifesto<br/>
+      v1.0.0
+    </p>
+  </header>
+
+  <!-- Center (Interaction Hint) -->
+  <div class="absolute inset-0 flex items-center justify-center pointer-events-none opacity-0 transition-opacity duration-2000 delay-500" data-mist-target="hint">
+    <p class="text-xs text-white/30 font-mono tracking-[0.2em] animate-pulse">
+      INTERACT TO DISTURB
+    </p>
+  </div>
+
+  <!-- Footer / Bottom Corners -->
+  <footer class="flex justify-between items-end pointer-events-auto opacity-0 transition-opacity duration-1000 delay-300" data-mist-target="ui">
+    
+    <!-- Local Time Indicator -->
+    <div class="text-xs font-mono text-white/60">
+      <span data-mist-target="timeLabel">LOCATING...</span>
+      <br/>
+      <span data-mist-target="coordinates" class="text-white/30">37.5665° N, 126.9780° E</span>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="flex flex-col items-end space-y-2 font-serif text-sm md:text-base">
+      <a href="#" class="hover:text-cyan-400 transition-colors border-b border-transparent hover:border-cyan-400 pb-0.5">Identity</a>
+      <a href="#" class="hover:text-cyan-400 transition-colors border-b border-transparent hover:border-cyan-400 pb-0.5">Works</a>
+      <a href="https://github.com/AnsibleMage" target="_blank" class="hover:text-cyan-400 transition-colors border-b border-transparent hover:border-cyan-400 pb-0.5">GitHub</a>
+    </nav>
+  </footer>
+
+</div>
