@@ -5,6 +5,21 @@
     "ReplicatedStorage": {
       "Shared": {
         "$path": "src/shared"
+      },
+      "ShopRemotes": {
+        "$className": "Folder",
+        "GetShopData": {
+          "$className": "RemoteFunction"
+        },
+        "PurchaseItem": {
+          "$className": "RemoteFunction"
+        },
+        "EquipItem": {
+          "$className": "RemoteEvent"
+        },
+        "ShopDataUpdate": {
+          "$className": "RemoteEvent"
+        }
       }
     },
     "ServerScriptService": {

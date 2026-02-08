@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ansible Logic Jump - Forest Sprint Premium. 100미터 수직 파쿠르의 극한 도전. Roblox에서 지금 플레이하세요.">
+    <meta name="author" content="AnsibleMage">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ansible Logic Jump | Forest Sprint Premium">
+    <meta property="og:description" content="100미터 수직 파쿠르의 극한 도전. 25개 플랫폼, 글로벌 리더보드, 체크포인트 시스템.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Ansible Logic Jump | Forest Sprint Premium</title>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a class="nav-logo" href="#">🌲 Logic Jump</a>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#features">Features</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#leaderboard">Leaderboard</a>
+                <a href="#about">About</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <canvas id="particle-canvas"></canvas>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-subtitle">FOREST SPRINT PREMIUM</span>
+                <span class="hero-main neon-glow">100미터의 완벽함</span>
+                <span class="hero-tagline">극한 파쿠르의 정점을 경험하세요</span>
+            </h1>
+            <a href="https://www.roblox.com/games/YOUR_GAME_ID" class="cta-button" target="_blank" rel="noopener">
+                ▶ PLAY NOW
+            </a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Game Features</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">⚡</div>
+                    <h3>극한 점프</h3>
+                    <p>25개 플랫폼을 넘어 100미터 수직 상승. 밀리초 단위의 정밀한 타이밍이 승패를 가릅니다.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">⏱️</div>
+                    <h3>타임 어택</h3>
+                    <p>0.01초 단위 정밀 타이머. 당신의 기록은 글로벌 리더보드에 영원히 새겨집니다.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🏁</div>
+                    <h3>체크포인트</h3>
+                    <p>4개의 전략적 세이브 포인트. 안전하게 도전하거나, 체크포인트 없이 진정한 도전을.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🏆</div>
+                    <h3>글로벌 랭킹</h3>
+                    <p>전 세계 플레이어와 경쟁. OrderedDataStore 기반 실시간 리더보드.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, var(--forest-deep), var(--bg-dark));">
+                        <span>🌲 Forest Track</span>
+                    </div>
+                    <p class="gallery-caption">울창한 숲을 배경으로 한 수직 파쿠르 트랙</p>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, var(--bark-primary), var(--forest-deep));">
+                        <span>🏃 Sprint Action</span>
+                    </div>
+                    <p class="gallery-caption">25개 플랫폼을 넘어가는 스프린트 액션</p>
+                </div>
+                <div class="gallery-item fade-in">
+                    <div class="gallery-placeholder" style="background: linear-gradient(135deg, var(--neon-yellow), var(--forest-bright));">
+                        <span>🏁 Finish Line</span>
+                    </div>
+                    <p class="gallery-caption">네온 옐로우 피니시라인의 승리의 순간</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Leaderboard Section -->
+    <section class="leaderboard" id="leaderboard">
+        <div class="container">
+            <h2 class="section-title">🏆 Global Leaderboard</h2>
+            <div class="leaderboard-table-wrapper fade-in">
+                <table class="leaderboard-table">
+                    <thead>
+                        <tr>
+                            <th>Rank</th>
+                            <th>Player</th>
+                            <th>Time</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="rank-first">
+                            <td><span class="rank-badge gold">👑 1</span></td>
+                            <td>SpeedRunner_KR</td>
+                            <td class="time-cell">12.34s</td>
+                        </tr>
+                        <tr>
+                            <td><span class="rank-badge silver">🥈 2</span></td>
+                            <td>ParkourMaster</td>
+                            <td class="time-cell">13.21s</td>
+                        </tr>
+                        <tr>
+                            <td><span class="rank-badge bronze">🥉 3</span></td>
+                            <td>JumpKing_99</td>
+                            <td class="time-cell">14.05s</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>ForestNinja</td>
+                            <td class="time-cell">14.88s</td>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>VerticalClimber</td>
+                            <td class="time-cell">15.42s</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td>NeonDasher</td>
+                            <td class="time-cell">16.01s</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
+                            <td>TreeHopper</td>
+                            <td class="time-cell">16.77s</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>SkyReacher</td>
+                            <td class="time-cell">17.33s</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
+                            <td>BarkRunner</td>
+                            <td class="time-cell">18.05s</td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>LeafStorm</td>
+                            <td class="time-cell">18.92s</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About</h2>
+            <div class="about-content fade-in">
+                <div class="about-avatar">🧑‍💻</div>
+                <div class="about-info">
+                    <h3>@AnsibleMage</h3>
+                    <p>Roblox 게임 개발자. 극한 파쿠르 장르의 새로운 기준을 만들어갑니다.</p>
+                    <div class="tech-badges">
+                        <span class="badge">Roblox Studio</span>
+                        <span class="badge">Luau</span>
+                        <span class="badge">Rojo</span>
+                        <span class="badge">TDD</span>
+                        <span class="badge">DataStore</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>🌲 Ansible Logic Jump — Forest Sprint Premium</p>
+                <p>&copy; 2026 AnsibleMage. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="https://www.roblox.com/games/YOUR_GAME_ID" target="_blank" rel="noopener">Play on Roblox</a>
+                    <a href="https://github.com/AnsibleMage" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

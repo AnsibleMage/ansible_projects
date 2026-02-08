@@ -1,31 +1,31 @@
 # 🎮 Ansible Jump 001
 
-> **Extreme Sky Jump Map - LIVE ON ROBLOX** 🟢
+> **Extreme Sky Platformer - LIVE ON ROBLOX** 🟢
 
 ---
 
-## 📋 Game Information
+## 📋 Game Info
 
-**Official Name**: Ansible Jump 001  
-**Developer**: @AnsibleMage  
-**Genre**: Extreme Sky Jump Map / Time Attack  
-**Status**: ✅ Launched (2026-01-25)  
-**Max Players**: 50
+**Official Name**: Ansible Jump 001
+**Developer**: @AnsibleMage
+**Genre**: Extreme Sky Platformer / Time Attack
+**Status**: ✅ Launched (2026-01-25)
+**Players**: Up to 50
 
 ---
 
-## 🎯 Game Features
+## 🎮 Features
 
 ### Core Mechanics
-- 🏔️ **25 Sky-High Platforms**: Extreme altitude platforms at 10~20m
-- ⏱️ **Precision Timer**: Time attack with 0.01s accuracy
-- 💀 **One-Hit Death**: Fall and die instantly + auto respawn
-- 🏆 **Record Tracking**: DataStore-based personal best system
+- 🏔️ **25 Sky Platforms**: Extreme platforms at heights of 10–20m
+- ⏱️ **Precision Timer**: Time attack with 0.01-second accuracy
+- 💀 **One-Shot Death**: Fall = instant death + auto respawn
+- 🏆 **Record System**: DataStore-based personal best tracking
 
 ### Premium Environment
-- 🌲 30 multi-part trees (2 Trunks + 3~5 Leaves each)
-- ✨ Advanced Lighting (Atmosphere, Bloom, SunRays)
-- 🛤️ 60 Path Markers
+- 🌲 30 multi-part trees (2 trunks + 3–5 leaf clusters each)
+- ✨ Advanced lighting (Atmosphere, Bloom, SunRays)
+- 🛤️ 60 path markers
 - 🏁 Safe finish platform
 
 ---
@@ -53,7 +53,7 @@
 # Start Rojo server
 ./rojo serve
 
-# Connect in Roblox Studio
+# Connect from Roblox Studio
 # Plugins → Rojo → Connect
 
 # Test in Play mode
@@ -67,8 +67,8 @@
 100_Ansible Logic Jump/
 ├── src/
 │   ├── server/
-│   │   ├── RaceEngine.server.lua      # Timer & record saving
-│   │   └── DeathZone.server.lua       # Fall detection & respawn
+│   │   ├── RaceEngine.server.lua      # Timer and record saving
+│   │   └── DeathZone.server.lua       # Fall detection and respawn
 │   ├── client/
 │   │   └── TimerGui.client.luau       # UI timer display
 │   └── shared/
@@ -81,16 +81,16 @@
 
 ---
 
-## 📚 Key Documentation
+## 📚 Documentation
 
 ### Development Docs
-- [111_Premium_PRD](./doc/111_Forest_Sprint_Premium_PRD_Advanced.md) - Product Requirements
+- [111_Premium_PRD](./doc/111_Forest_Sprint_Premium_PRD_Advanced.md) - Product Requirements Document
 - [112_Implementation_Roadmap](./doc/112_Implementation_Roadmap_Advanced.md) - Phase 1 Roadmap
-- [113_Phase2_Enhancement](./doc/113_Phase2_Enhancement_Roadmap.md) - Phase 2 Path/Platforms
+- [113_Phase2_Enhancement](./doc/113_Phase2_Enhancement_Roadmap.md) - Phase 2 Paths & Platforms
 - [116_Phase3_Extreme](./doc/116_Phase3_Extreme_Jump_Map_Roadmap.md) - Phase 3 Extreme Mode
 
 ### Reference Docs
-- [119_Debugging_Log](./doc/119_Debugging_Log_And_Lessons_Learned.md) - Debugging Log & Lessons
+- [119_Debugging_Log](./doc/119_Debugging_Log_And_Lessons_Learned.md) - Debugging Log & Lessons Learned
 - [120_Launch_Completion](./doc/120_Launch_Completion_Celebration.md) - Launch Celebration
 - [118_Launch_Guide](./doc/118_Roblox_Launch_Guide.md) - Roblox Publishing Guide
 
@@ -99,17 +99,17 @@
 ## 🎮 Gameplay
 
 ### How to Play
-1. **Spawn**: Start at Y=10 high in the sky
-2. **Objective**: Jump across 25 platforms to reach the finish line
-3. **Rules**: 
-   - Land precisely on each platform
-   - Fall = instant death → restart from beginning
-   - Challenge for the best record!
+1. **Spawn**: Start high in the sky at Y=10
+2. **Goal**: Jump across 25 platforms to reach the finish line
+3. **Rules**:
+   - Land precisely on each platform to advance
+   - Fall = instant death → restart from the beginning
+   - Beat your personal best!
 
 ### Difficulty
 - **Start**: Lower platforms (Y=10)
-- **Mid-game**: Progressive ascent
-- **Final**: Peak altitude (Y=20)
+- **Mid**: Gradually ascending
+- **End**: Highest point (Y=20)
 
 ---
 
@@ -118,7 +118,7 @@
 ### Phase 1: Environment Setup ✅
 - Premium forest environment
 - Advanced lighting system
-- Basic timer & track
+- Basic timer and track
 
 ### Phase 2: Jump Map Features ✅
 - 60 path markers
@@ -126,14 +126,14 @@
 
 ### Phase 3: Extreme Jump Map ✅
 - Expanded to 25 platforms
-- Elevated to 10~20m altitude
+- Height range raised to 10–20m
 - Death zone implementation
 - Death/Respawn system
 
 ### Final Debugging ✅
 - Rojo sync optimization
-- KillBrick position adjustment
-- Timer reset logic
+- KillBrick positioning adjustments
+- Timer initialization logic
 - Finish platform addition
 
 **Total Development Time**: ~4.5 hours
@@ -142,34 +142,34 @@
 
 ## 🏆 Key Achievements
 
-### Technical Achievements
-- ✅ Rojo workflow mastery
-- ✅ Python automation (trees, platforms generation)
+### Technical
+- ✅ Mastered Rojo workflow
+- ✅ Python automation (tree & platform generation)
 - ✅ Server-client synchronization
-- ✅ DataStore persistent record storage
+- ✅ DataStore persistent record saving
 
-### Game Design Achievements
+### Game Design
 - ✅ Quality-first development
-- ✅ Phased expansion (Phase 1→2→3)
-- ✅ Perfect gameplay experience
+- ✅ Incremental expansion (Phase 1→2→3)
+- ✅ Polished gameplay
 - ✅ Successful launch
 
 ---
 
-## 📊 Final Statistics
+## 📊 Final Stats
 
 - **Platforms**: 25
-- **Trees**: 30 (5~7 parts each)
+- **Trees**: 30 (5–7 parts each)
 - **Path Markers**: 60
 - **Code**: 3 Lua scripts (225 lines)
-- **Documentation**: 20 markdown files
+- **Documentation**: 20 Markdown files
 
 ---
 
-## 🚀 Next Steps
+## 🚀 What's Next
 
 ### Short-term Improvements
-- Friend invites & feedback collection
+- Friend invitations and feedback collection
 - Difficulty balancing
 - Play data analysis
 
@@ -181,20 +181,20 @@
 
 ### Long-term Vision
 - Mega jump map (100+ platforms)
-- Various mechanics (moving/rotating platforms)
-- Cooperative multiplayer
+- Dynamic gimmicks (moving/rotating platforms)
+- Co-op multiplayer
 
 ---
 
 ## 👥 Credits
 
-**Developer**: @AnsibleMage  
-**AI Partner**: Antigravity System V3.0  
-**Platform**: Roblox  
+**Development**: @AnsibleMage
+**AI Partner**: Antigravity System V3.0
+**Platform**: Roblox
 **Launch Date**: 2026-01-25
 
 ---
 
-**"A 100-meter start becomes the foundation of a 1000-meter metaverse."**
+**"A 100-meter start builds the foundation for a 1,000-meter metaverse."**
 
 **Powered by Antigravity V3.0** 🤖✨
